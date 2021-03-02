@@ -46,13 +46,13 @@
     align-items: center;
 }
 .header-gmail {
-    margin: -1px 0 0 15px;
+    margin: 1px 0 0 15px;
     color: #222222;
     font-size: 13px;
 }
 
 .header-images {
-    margin: -1px 19px 0 15px;
+    margin: 1px 19px 0 15px;
     color: #222222;
     font-size: 13px;
 }
@@ -67,22 +67,20 @@
     outline: none;
 }
 
-.button-sign-in {
-    margin: 0 12px;
-    padding: 9px 24.5px;
-    font-size: 14px;
-    letter-spacing: .25px;
-    color: white;
-    background-color: #2e74e6;
+.button-account {
+    margin: 0 11px;
+    padding: 3px 0 0 0;
+    width: 32px;
+    height: 32px;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 50%;
 }
 
-.button-sign-in:hover {
-    background-color: #4c87e7;
+.button-account:hover {
+    box-shadow: 0 0 6px -1px rgb(180, 180, 180)
 }
 
-.button-sign-in:focus {
+.button-account:focus {
     outline: none;
 }
 
@@ -117,7 +115,6 @@
 .search-input {
     order: 2;
     flex-grow: 1;
-    position: relative;
     border: none;
     padding: 0 4px;
     font-size: 16px;
